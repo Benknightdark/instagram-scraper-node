@@ -1,6 +1,6 @@
 {
   "name": "instagram-scraper-node",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Scrapes an instagram user's photos and videos.",
   "main": "index.js",
   "directories": {
@@ -17,14 +17,18 @@
     "instagram",
     "scraper"
   ],
-  "author": "Richard Arcega <rarcega@gmail.com> (http://richardarcega.com)",
+  "author": "Richard Arcega <hello@richardarcega.com> (http://richardarcega.com)",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/rarcega/instagram-scraper-node/issues"
   },
   "homepage": "https://github.com/rarcega/instagram-scraper-node#readme",
+  "engines" : {
+    "node" : ">=6.11.0"
+  },
   "dependencies": {
-    "bluebird": "^2.10.0",
-    "request": "^2.61.0"
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
   }
 }
